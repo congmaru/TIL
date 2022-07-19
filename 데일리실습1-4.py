@@ -1,12 +1,25 @@
 #데일리실습1-4
 
 result = 0
-for i in range(1,1000):
-    if i // 2 == 0 or i // 7 == 0:
-        result += i
+
+for i in range(1,10):
+    if i % 2 == 0 or i % 7 == 0:
+        result = result + 1
         
-    print(result)
+    print(sum(result))
 
 
-    #근데 이거 결과값이 계속 나온다. 어떻게 끝내지?
-    
+
+
+s = set()
+
+for i in range(1, 1000):
+    if i % 2 == 0:
+        s.add(i)
+
+    if i % 7 == 0:
+        s.add(i)
+
+print(sum(s))
+
+
