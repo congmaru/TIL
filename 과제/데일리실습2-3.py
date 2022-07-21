@@ -4,5 +4,5 @@
 
 s = input('문장을 입력하세요')
 result = s.split(' ')
-print(result)
+print(list(result))
 

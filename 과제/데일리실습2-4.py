@@ -7,13 +7,25 @@
 # 총계 ₩    57,500
 
 steak = input('스테이크의 가격?')
-print(type(steak)) #str
+# print(type(steak)) #str
 steak = int(steak)
 
 vat = int(steak) * 0.15
-print(vat)
+# print(vat)
 
 total = steak + vat
-print(total)
+# print(total)
+
+# d = {}
+# d['스테이크']=steak
+# d['+ VAT'] = vat
+# d['총계 ₩'] = total
+#{'스테이크': 1000, '+ VAT': 150.0, '총계 ₩': 1150.0} 이렇게 출력된다.
+
+print('스테이크', steak)
+print('+ VAT', vat)
+print('총계 ₩', total)
+
+
 
 
