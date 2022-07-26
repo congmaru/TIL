@@ -88,16 +88,16 @@
 # print(fibo_list)
 
 
-#하노이의 탑
-def hanoi(N, start, end, other):
-    if N == 1:
-        print(f'{start} -> {end}')
-        return
+# #하노이의 탑
+# def hanoi(N, start, end, other):
+#     if N == 1:
+#         print(f'{start} -> {end}')
+#         return
 
-    hanoi(N-1, start, other, end)
-    print(f'{start} -> {end}')
-    hanoi(N-1, other, end, start)
+#     hanoi(N-1, start, other, end)
+#     print(f'{start} -> {end}')
+#     hanoi(N-1, other, end, start)
 
-#원판의 갯수, 시작, 도착, 서브 기둥 번호
-N = 3
-hanoi(2,1,2,3)
+# #원판의 갯수, 시작, 도착, 서브 기둥 번호
+# N = 3
+# hanoi(2,1,2,3)
