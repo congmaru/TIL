@@ -24,11 +24,13 @@ class Doggy():
         cls.num_of_dogs -=1
 
     @classmethod
-    def get_result(cls):
+    def get_status(cls):
         print(f'현재남아있는 개의 수는 {cls.num_of_dogs}입니다')
 
     def bark(self):
-        print(f'월월! 나는 {self.name}이다')
+        print(f'웡! 나는 {self.name}이다')
+    
+    
     
 Doggy.get_status()
 dog1 = Doggy('콩','시츄')
@@ -36,3 +38,10 @@ dog1.bark()
 Doggy.get_status()
 del dog1
 Doggy.get_status()
+
+
+#birth() 함수와 dead() 함수는 그냥 가독성을 위해 따로 뺀겁니다.
+# init 과 del 안에서 직접 변수 수정해도 괜찮아요
+# @classmethod 데코레이터는 클래스 변수를 쓸 때 사용합니다.
+# 사실 없어도 정상 동작합니다 !!!
+# 그렇지만, 클래스 변수 접근하는 메서드와 인스턴스 변수를 접근하는 메서드 를 구분하여 사용하는 것이 좋습니다.
