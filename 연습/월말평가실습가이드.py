@@ -23,3 +23,4 @@ my_lst2 = my_lst
 my_lst3 = copy.deepcopy(my_lst)
 my_lst[0] = -1
 print(my_lst, my_lst2, my_lst3)
+#[-1, 2, 3] [-1, 2, 3] [1, 2, 3]

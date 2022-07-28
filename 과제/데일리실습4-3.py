@@ -9,7 +9,9 @@
 
 def func2():
     lst = input('0부터 9까지의 정수를 띄어쓰기하여 무작위로 입력하세요').split(' ')
+    print(dict.fromkeys(lst))
     print(list(dict.fromkeys(lst)))
+    
 
 func2()
 

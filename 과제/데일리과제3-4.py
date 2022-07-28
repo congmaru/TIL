@@ -4,7 +4,7 @@
 s_triangle = list(map(int,input('삼각형의 세 변을 띄어쓰기로 입력하세요').split()))
 st = sorted(s_triangle,reverse=True)
 
-if st[0] > st[1]+st[2]:
+if st[0] >= st[1]+st[2]:
     print('삼각형이 아닙니다.')
 else: 
     if st[0] == st[1] == st[2]:

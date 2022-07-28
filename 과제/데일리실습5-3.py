@@ -2,11 +2,11 @@
 #첫번째 방식
 
 s = '@#~I NeVEr DrEamEd AbouT SuCCeSs, i woRkEd foR iT.!>!'
-def sent():
+def sent(s):
     s1 = s.strip('~!@#$%>')
     s2 = s1.lower()
     s3 = s2.capitalize()
     return s3
 
 
-#이걸 함수화할 수 있으려나
+print(sent(s))
