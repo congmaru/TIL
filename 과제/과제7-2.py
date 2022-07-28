@@ -1,20 +1,20 @@
 class Doggy():
 
-    num_of_dogs = 0
+    num_of_dogs = 0 #클래스 변수. 
     birth_of_dogs = 0
 
-    def __init__(self,name,type):
+    def __init__(self,name,type): #인스턴스변수. 생성자
         print('Doggy 클래스 생성자 호출')
         Doggy.birth()
         self.name = name
         self.type = type
 
-    def __del__(self):
+    def __del__(self): #소멸자
         print('Doggy 소멸자 호출')
         Doggy.dead()
 
 
-    @classmethod
+    @classmethod #클래스메서드. 클래스가 사용하는 함수
     def birth(cls):
         cls.num_of_dogs +=1
         cls.birth_of_dogs +=1

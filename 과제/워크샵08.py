@@ -24,6 +24,7 @@ class Rectangle:
     def is_square(self):
         return abs(self.p2.x - self.p1.x) == abs(self.p2.y - self.p1.y)
 
+#실행해봄
 p1 = Point(1,3)
 p2 = Point(3, 1)
 r1 = Rectangle((p1), p2)

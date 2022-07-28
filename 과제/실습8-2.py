@@ -2,7 +2,7 @@
 
 class Person():
 
-    def __init__(self, name, age):
+    def __init__(self, name, age): #생성자. 인스턴스변수.
         self.name= name
         self.age= age
 
