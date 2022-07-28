@@ -27,14 +27,15 @@
 # print(c1.pi)
 # print(c2.pi)
 
-class Person:
-    count = 0 #공용
+# class Person:
+#     count = 0 #공용
 
-    def __init__(self, name): #생성자
-        self.name = name
-        Person.count += 1
+#     def __init__(self, name): #생성자
+#         self.name = name
+#         Person.count += 1
 
-person1 = Person('아이유') 
-person2 = Person('이찬혁')
+# person1 = Person('아이유') 
+# person2 = Person('이찬혁')
 
-print(Person.count)
+# print(Person.count)
+

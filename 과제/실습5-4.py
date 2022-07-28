@@ -15,6 +15,5 @@ def sum_of_repeat_number(n_lst):
     return result
 
 n_lst = [4,4,5,8,10,4]
-# for n in n_lst:
 
 print(sum_of_repeat_number(n_lst))
